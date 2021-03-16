@@ -1,12 +1,14 @@
 :root {
     --primary-color: #7c3AED;
-
+    --dark-gray: #6B7280;
+    --gray: #f3f4f6;
 }
 
 body {
 
 
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 
 }
 
@@ -85,20 +87,82 @@ hr {
     font-weight: bold;
 }
 
-.hero{
-    padding: 2rem;;
-    
+.hero {
+    padding: 2rem;
+    ;
+
 }
 
- .hero .hero-image{
+.hero .hero-image {
 
-    max-width:300px;
-   display: block;
-   margin:auto;
+    max-width: 350px;
+    display: block;
+    margin: auto;
 }
-.hero .hero-heading{
-    
+
+.hero .hero-heading {
+
     padding-top: 1rem;
-text-align: center;
-    
+    text-align: center;
+    color: var(--dark-gray);
+
 }
+
+.heading-inverted {
+    color: var(--primary-color)
+}
+
+.primary-link {
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.section {
+    text-align: center;
+    padding: 2rem 0rem;
+    display: block;
+
+
+}
+
+.section-ow {
+
+    background-color: var(--gray)
+}
+
+.footer {
+
+    background-color:var(--primary-color) ;
+padding:2rem 0rem;
+text-align:center;
+color:white;
+border-top-right-radius:1rem;
+
+
+}
+.footer .link{
+    color:white;
+}
+
+
+.footer ul{
+
+    padding-inline-start: 0px;
+
+}
+  .footer .heading{
+    font-weight: bold;
+    font-size: larger;
+}
+  
+
+
+
+
+
+
+
+
