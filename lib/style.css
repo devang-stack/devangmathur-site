@@ -135,34 +135,27 @@ hr {
 
 .footer {
 
-    background-color:var(--primary-color) ;
-padding:2rem 0rem;
-text-align:center;
-color:white;
-border-top-right-radius:1rem;
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
 
 
 }
-.footer .link{
-    color:white;
+
+.footer .link {
+    color: white;
 }
 
 
-.footer ul{
+.footer ul {
 
     padding-inline-start: 0px;
 
 }
-  .footer .heading{
+
+.footer .heading {
     font-weight: bold;
     font-size: larger;
 }
-  
-
-
-
-
-
-
-
-
