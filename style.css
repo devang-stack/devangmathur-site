@@ -1,7 +1,14 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    
+
+
+
 :root {
     --primary-color: #7c3AED;
     --dark-gray: #6B7280;
     --gray: #f3f4f6;
+    --faint-gray: rgb(208, 211, 214);
 }
 
 body {
@@ -11,6 +18,9 @@ body {
     margin: 0px;
 
 }
+.padding-md{
+    padding:2rem 2rem;
+}
 
 .container {
 
@@ -19,7 +29,7 @@ body {
 }
 
 .container-center {
-    max-width: 600px;
+   text-align:center;
     margin: auto;
 
 }
@@ -30,8 +40,13 @@ hr {
 }
 
 .link {
+    
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin-top: 1 rem; */
+
+   
+   
 }
 
 .link-primary {
@@ -39,6 +54,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+   
 }
 
 .link-secondary {
@@ -59,13 +75,25 @@ hr {
     padding: 0rem 0.5rem;
 
 }
+.navigation-link:hover{
+     font-size:120%;
+    font-weight:bold;
+}
+a:hover{
+    font-size:120%;
+   font-weight:bold;
+}
+.navigation-link:active{
+    font-weight:bold;
+}
 
 .navigation {
 
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+   
     border-bottom-left-radius: 1rem;
+    padding: 1rem;
 }
 
 .navigation-link {
@@ -89,6 +117,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top:5rem
     ;
 
 }
@@ -111,6 +140,9 @@ hr {
 .heading-inverted {
     color: var(--primary-color)
 }
+.heading-name{
+    color:var(--faint-gray)
+}
 
 .primary-link {
     padding: 0.5rem;
@@ -118,13 +150,20 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    
+   
 }
 
-.section {
-    text-align: center;
-    padding: 2rem 0rem;
-    display: block;
-
+.section 
+    
+{
+    padding: 2rem 0rem ; 
+ text-align:center;
+   
+   
+}
+    .section h1 {
+        text-align: center;
 
 }
 
