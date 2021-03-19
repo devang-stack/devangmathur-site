@@ -31,6 +31,7 @@ body {
 .container-center {
    text-align:center;
     margin: auto;
+  
 
 }
 
@@ -54,6 +55,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    
    
 }
 
