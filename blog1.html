@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="style.css" rel="stylesheet /">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects | devangmathur</title>
+</head>
+<body>
+    <h1 style="text-align: center; " >Query Selector</h1>
+<p style="text-align: center; ">You may heard about this function before, we can use it to select an item (by formerly declared selectors in HTML) on a webpage in JavaScript.
+    The querySelector() method returns the first element which matches the CSS selector that we have specified, or a group of selectors. And if no matches are found, then null is returned. And Throws a SYNTAX_ERR exception if the specified CSS selector(s) is invalid.
+    This method is used with the Document method that implies that it connects with the API interface between JavaScript and HTML file. Basically, It is a function that returns an element that matches a CSS Query.
+    Note:- querySelector() method only returns the first instance of a selector, i.e., when we use this function in JS then only first element that satisfies its condition will be return. So, to overcome this querySelector() has a sister called querySelectorAll(), which returns all of the elements that meet all the necessary conditions.
+    Browser versions from where this function is compatible.
+    Version Compatibility
+    The conditions should be in the form of selector or group of selectors to return the element we have to match these queries, here are some basic selectors and there syntax in the function:-
+    First Element[<-p>]: document.querySelector(“p”);
+    Class attribute, class=“example”: document.querySelector(“.example”);
+    ID attribute, id=“demo”: document.querySelector(“#demo”);
+    <-p>element having parent<-div>: document.querySelector(“div > p”);
+    a tag having “target” attribute: document.querySelector(“a[target]”);
+    Two Selectors together: document.querySelector(“h2, h3”) #here the element which used in html first got preference.
+    Example: document.querySelector(“button”).addEventListener(“click”, console.log(“Button-Clicked”);
+    Reference: MDN Web Docs(mozilla), w3school.com, careerkarma</p>
+   
+    </body>
+    </html>
